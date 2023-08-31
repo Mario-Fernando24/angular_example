@@ -3,10 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent  } from './components/header/header.component';
+import { BodyComponent  } from './components/body/body.component';
+import { FooterComponent  } from './components/footer/footer.component';
+
+
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    //declarar el componente que quiero utilizar de forma global
+    HeaderComponent,
+    BodyComponent,
+    FooterComponent
+
   ],
   imports: [
     BrowserModule,
@@ -15,4 +27,4 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {  }

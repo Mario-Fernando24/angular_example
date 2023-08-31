@@ -1,0 +1,3 @@
+
+//PARA CREAR UN COMPONENTE DE FORMA AUTOMATICA
+ng g c component/footer
